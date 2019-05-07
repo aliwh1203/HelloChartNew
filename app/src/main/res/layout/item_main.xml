@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+    <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="应用名称"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/app_icon"
+            android:layout_marginStart="11dp"/>
+
+    <TextView
+            android:id="@+id/listenerstate"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/switch_off"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:textSize="10dp"
+            android:text="关闭推送"/>
+
+</RelativeLayout>
